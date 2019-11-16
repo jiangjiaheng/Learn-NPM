@@ -1,0 +1,41 @@
+{
+    "name": "landscape-cli",
+    "version": "1.0.0",
+    "description": "landscape  is a scaffold for initiating new projects from a given template.",
+    "bin": {
+        "landscape": "bin/landscape"
+    },
+    "author": "jiangjiaheng",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jiangjiaheng/web-template/issues"
+    },
+    "homepage": "https://github.com/jiangjiaheng/web-template#readme",
+    "dependencies": {
+        "chalk": "^2.4.2",
+        "cli-table": "^0.3.1",
+        "commander": "^2.20.0",
+        "download-git-repo": "^2.0.0",
+        "inquirer": "^6.5.0",
+        "ncp": "^2.0.0",
+        "nedb": "^1.8.0",
+        "ora": "^3.4.0"
+    },
+    "devDependencies": {
+        "@types/cli-table": "^0.3.0",
+        "@types/nedb": "^1.8.8",
+        "rollup": "^1.17.0",
+        "rollup-plugin-commonjs": "^10.0.1",
+        "rollup-plugin-typescript": "^1.0.1",
+        "typescript": "^3.5.3"
+    },
+    "scripts": {
+        "dev": "rollup -c -w",
+        "build": "rollup -c"
+    },
+    "keywords": [
+        "landscape",
+        "landscape-cli",
+        "cli"
+    ]
+}
