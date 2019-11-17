@@ -2,12 +2,12 @@ import Vue from 'vue'
 import App from './App.vue'
 
 // // 导入组件库
-// import ColorPicker from '../packages/index'
+import MyComponents from '../packages/index'
 // // 注册组件库
-// Vue.use(ColorPicker)
+Vue.use(MyComponents)
 
-import landscapecolor from 'landscapecolor'
-Vue.use(landscapecolor)
+// import landscapecolor from 'landscapecolor'
+// Vue.use(landscapecolor)
 
 Vue.config.productionTip = false
 

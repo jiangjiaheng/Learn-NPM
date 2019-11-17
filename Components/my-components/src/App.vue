@@ -1,6 +1,7 @@
 <template>
   <div id="app">
    <colorPicker v-model="color" />
+   <calculator></calculator>
   </div>
 </template>
 
