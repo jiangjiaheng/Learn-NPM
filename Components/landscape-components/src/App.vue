@@ -1,26 +1,30 @@
 <template>
   <div id="app">
     <calculator></calculator>
-    <colorPicker v-model="color" />
   </div>
 </template>
 
 <script>
 export default {
   data() {
-    return {
-      color: "#ff0000"
-    };
+    return {};
   },
-  methods: {
-    headleChangeColor() {
-      // console.log('颜色改变')
-    }
-  }
+  methods: {}
 };
 </script>
 
 <style>
+html {
+  height: 100%;
+  background: radial-gradient(circle, white 20%, pink);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "黑体";
+  font-size: 14px;
+  font-weight: bold;
+}
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

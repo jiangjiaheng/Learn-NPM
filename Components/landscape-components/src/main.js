@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 
-import myComponents from '../components/index'
+import myComponents from '../myComponents/index'
 
 Vue.use(myComponents)
 

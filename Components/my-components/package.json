@@ -11,6 +11,7 @@
     },
     "dependencies": {
         "core-js": "^3.3.2",
+        "landscape-components": "^0.1.0",
         "landscapecolor": "^0.1.0",
         "node-sass": "^4.13.0",
         "sass-loader": "^8.0.0",

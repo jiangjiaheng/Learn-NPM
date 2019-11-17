@@ -4,9 +4,9 @@
 	else if(typeof define === 'function' && define.amd)
 		define([], factory);
 	else if(typeof exports === 'object')
-		exports["vcolorpicker"] = factory();
+		exports["landscape-components"] = factory();
 	else
-		root["vcolorpicker"] = factory();
+		root["landscape-components"] = factory();
 })((typeof self !== 'undefined' ? self : this), function() {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -456,24 +456,39 @@ function applyToTag (styleElement, obj) {
 
 /***/ }),
 
-/***/ "4dba":
+/***/ "95cb":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_color_picker_vue_vue_type_style_index_0_id_1ae3d07c_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("febd");
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_color_picker_vue_vue_type_style_index_0_id_1ae3d07c_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_color_picker_vue_vue_type_style_index_0_id_1ae3d07c_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_calculator_vue_vue_type_style_index_0_id_c35dd3b2_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("f149");
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_calculator_vue_vue_type_style_index_0_id_c35dd3b2_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_calculator_vue_vue_type_style_index_0_id_c35dd3b2_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
 /* unused harmony reexport * */
- /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_color_picker_vue_vue_type_style_index_0_id_1ae3d07c_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default.a); 
+ /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_calculator_vue_vue_type_style_index_0_id_c35dd3b2_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
-/***/ "d163":
+/***/ "b674":
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__("24fb")(false);
 // Module
-exports.push([module.i, ".m-colorPicker[data-v-1ae3d07c]{position:relative;text-align:left;font-size:14px;display:inline-block}.m-colorPicker li[data-v-1ae3d07c],.m-colorPicker ol[data-v-1ae3d07c],.m-colorPicker ul[data-v-1ae3d07c]{list-style:none;margin:0;padding:0}.m-colorPicker input[data-v-1ae3d07c]{display:none}.m-colorPicker .colorBtn[data-v-1ae3d07c]{width:15px;height:15px}.m-colorPicker .colorBtn.disabled[data-v-1ae3d07c]{cursor:no-drop}.m-colorPicker .box[data-v-1ae3d07c]{position:absolute;width:190px;background:#fff;border:1px solid #ddd;visibility:hidden;border-radius:2px;margin-top:2px;padding:10px;padding-bottom:5px;-webkit-box-shadow:0 0 5px rgba(0,0,0,.15);box-shadow:0 0 5px rgba(0,0,0,.15);opacity:0;-webkit-transition:all .3s ease;transition:all .3s ease}.m-colorPicker .box h3[data-v-1ae3d07c]{margin:0;font-size:14px;font-weight:400;margin-top:10px;margin-bottom:5px;line-height:1;color:#333}.m-colorPicker .box.open[data-v-1ae3d07c]{visibility:visible;opacity:1}.m-colorPicker .hd[data-v-1ae3d07c]{overflow:hidden;line-height:29px}.m-colorPicker .hd .colorView[data-v-1ae3d07c]{width:100px;height:30px;float:left;-webkit-transition:background-color .3s ease;transition:background-color .3s ease}.m-colorPicker .hd .defaultColor[data-v-1ae3d07c]{width:80px;float:right;text-align:center;border:1px solid #ddd;cursor:pointer;color:#333}.m-colorPicker .tColor li[data-v-1ae3d07c]{width:15px;height:15px;display:inline-block;margin:0 2px;-webkit-transition:all .3s ease;transition:all .3s ease}.m-colorPicker .tColor li[data-v-1ae3d07c]:hover{-webkit-box-shadow:0 0 5px rgba(0,0,0,.4);box-shadow:0 0 5px rgba(0,0,0,.4);-webkit-transform:scale(1.3);transform:scale(1.3)}.m-colorPicker .bColor li[data-v-1ae3d07c]{width:15px;display:inline-block;margin:0 2px}.m-colorPicker .bColor li li[data-v-1ae3d07c]{display:block;width:15px;height:15px;-webkit-transition:all .3s ease;transition:all .3s ease;margin:0}.m-colorPicker .bColor li li[data-v-1ae3d07c]:hover{-webkit-box-shadow:0 0 5px rgba(0,0,0,.4);box-shadow:0 0 5px rgba(0,0,0,.4);-webkit-transform:scale(1.3);transform:scale(1.3)}", ""]);
+exports.push([module.i, "#calculator[data-v-c35dd3b2]{width:325px;height:auto;margin:100px auto;background-color:#9dd2ea;padding:20px 20px 9px 20px;background:-webkit-gradient(linear,left top,left bottom,from(#9dd2ea),to(#8bceec));background:linear-gradient(#9dd2ea,#8bceec);border-radius:3px;-webkit-box-shadow:0 4px #009de4,0 10px 15px rgba(0,0,0,.2);box-shadow:0 4px #009de4,0 10px 15px rgba(0,0,0,.2)}.top span.clear[data-v-c35dd3b2]{float:left}.top div.screen[data-v-c35dd3b2]{width:212px;height:40px;background-color:rgba(0,0,0,.2);border-radius:3px;float:right;padding:0 10px;-webkit-box-shadow:inset 0 4px rgba(0,0,0,.2);box-shadow:inset 0 4px rgba(0,0,0,.2);text-align:right;line-height:40px;letter-spacing:1px;font-size:17px;text-shadow:1px 1px 2px rgba(0,0,0,.2);color:#fff}.keys[data-v-c35dd3b2],.top[data-v-c35dd3b2]{display:inline-block}.keys span[data-v-c35dd3b2],.top span.clear[data-v-c35dd3b2]{float:left;position:relative;top:0;width:66px;height:36px;cursor:pointer;background-color:#fff;border-radius:3px;-webkit-box-shadow:0 4px rgba(0,0,0,.2);box-shadow:0 4px rgba(0,0,0,.2);margin:0 7px 11px 0;color:#888;line-height:36px;text-align:center;-webkit-transition:all .2s ease;transition:all .2s ease}.keys span.operator[data-v-c35dd3b2]{background-color:#fff0f5}.keys span.eval[data-v-c35dd3b2]{background-color:#f1ff92;-webkit-box-shadow:0 4px #9da853;box-shadow:0 4px #9da853;color:#888e5f}.top span.clear[data-v-c35dd3b2]{background-color:#ff9fa8;-webkit-box-shadow:0 4px #ff7c87;box-shadow:0 4px #ff7c87;color:#fff}.keys span[data-v-c35dd3b2]:hover{background-color:#9c89f6}.keys span.eval[data-v-c35dd3b2]:hover{background-color:#abb850;-webkit-box-shadow:0 4px #717a33;box-shadow:0 4px #717a33;color:#fff}.top span.clear[data-v-c35dd3b2]:hover{background-color:#f68991;-webkit-box-shadow:0 4px #03545d;box-shadow:0 4px #03545d;color:#fff}.keys span[data-v-c35dd3b2]:active,.top span.clear[data-v-c35dd3b2]:active{-webkit-box-shadow:0 0 #717a33;box-shadow:0 0 #717a33;top:4px}.radix[data-v-c35dd3b2]{color:#25848e;padding:5px 0}.radix [type=radio][data-v-c35dd3b2],.radix label[data-v-c35dd3b2]{cursor:pointer}", ""]);
 
+
+/***/ }),
+
+/***/ "f149":
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__("b674");
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var add = __webpack_require__("499e").default
+var update = add("15432ca2", content, true, {"sourceMap":false,"shadowMode":false});
 
 /***/ }),
 
@@ -543,14 +558,41 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"e830ca14-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./packages/calculator/src/calculator.vue?vue&type=template&id=40cbf3ec&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{},[_vm._v(" hello calculator component ")])}
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"6e8cfb98-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./myComponents/calculator/src/calculator.vue?vue&type=template&id=c35dd3b2&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"calculator"}},[_c('div',{staticClass:"top"},[_c('span',{staticClass:"clear",on:{"click":_vm.calculator}},[_vm._v("c")]),_c('div',{staticClass:"screen"},[_vm._v(_vm._s(_vm.result))])]),_c('div',{staticClass:"keys"},[_c('span',{on:{"click":_vm.calculator}},[_vm._v("7")]),_c('span',{on:{"click":_vm.calculator}},[_vm._v("8")]),_c('span',{on:{"click":_vm.calculator}},[_vm._v("9")]),_c('span',{staticClass:"operator",on:{"click":_vm.calculator}},[_vm._v("+")])]),_c('div',{staticClass:"keys"},[_c('span',{on:{"click":_vm.calculator}},[_vm._v("4")]),_c('span',{on:{"click":_vm.calculator}},[_vm._v("5")]),_c('span',{on:{"click":_vm.calculator}},[_vm._v("6")]),_c('span',{staticClass:"operator",on:{"click":_vm.calculator}},[_vm._v("-")])]),_c('div',{staticClass:"keys"},[_c('span',{on:{"click":_vm.calculator}},[_vm._v("1")]),_c('span',{on:{"click":_vm.calculator}},[_vm._v("2")]),_c('span',{on:{"click":_vm.calculator}},[_vm._v("3")]),_c('span',{staticClass:"operator",on:{"click":_vm.calculator}},[_vm._v("/")])]),_c('div',{staticClass:"keys"},[_c('span',{on:{"click":_vm.calculator}},[_vm._v("0")]),_c('span',{on:{"click":_vm.calculator}},[_vm._v(".")]),_c('span',{staticClass:"eval",on:{"click":_vm.calculator}},[_vm._v("=")]),_c('span',{staticClass:"operator",on:{"click":_vm.calculator}},[_vm._v("x")])])])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./packages/calculator/src/calculator.vue?vue&type=template&id=40cbf3ec&scoped=true&
+// CONCATENATED MODULE: ./myComponents/calculator/src/calculator.vue?vue&type=template&id=c35dd3b2&scoped=true&
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./packages/calculator/src/calculator.vue?vue&type=script&lang=js&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./myComponents/calculator/src/calculator.vue?vue&type=script&lang=js&
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -559,15 +601,103 @@ var staticRenderFns = []
 //
 
 /* harmony default export */ var calculatorvue_type_script_lang_js_ = ({
-   name: 'calculator',
-   components: {},
-   data() {
-       return {}
-   },
+  name: "calculator",
+  components: {},
+  data() {
+    return {
+      calSymbol: "",
+      equalSign: false,
+      UsedColSymbol: false,
+      lastNumber: "",
+      result: ""
+    };
+  },
+  created() {},
+  computed: {},
+  watch: {
+    radix() {
+      this.setRadix();
+    }
+  },
+  methods: {
+    numberFunc(str) {
+      if (this.UsedColSymbol) {
+        this.result = "";
+        this.UsedColSymbol = false;
+      }
+      if (this.equalSign) {
+        this.result = "";
+        this.equalSign = false;
+      }
+      this.result += str;
+    },
+    symbolFunc(str) {
+      this.UsedColSymbol = true;
+      this.lastNumber = this.result;
+      this.calSymbol = str;
+    },
+    equalFunc() {
+      if (this.calSymbol === "+") {
+        this.result = parseFloat(this.lastNumber) + parseFloat(this.result);
+      } else if (this.calSymbol === "-") {
+        this.result = parseFloat(this.lastNumber) - parseFloat(this.result);
+      } else if (this.calSymbol === "x") {
+        this.result = parseFloat(this.lastNumber) * parseFloat(this.result);
+      } else if (this.calSymbol === "/") {
+        this.result = parseFloat(this.lastNumber) / parseFloat(this.result);
+      }
+      this.equalSign = true;
+    },
+    pointFunc() {
+      if (!this.result.includes(".")) {
+        this.result += ".";
+      }
+    },
+    clearFunc() {
+      this.result = "";
+      this.calSymbol = "";
+      this.lastNumber = "";
+    },
+    calculator(e) {
+      const str = e.target.innerHTML;
+      switch (str) {
+        case "0":
+        case "1":
+        case "2":
+        case "3":
+        case "4":
+        case "5":
+        case "6":
+        case "7":
+        case "8":
+        case "9":
+          this.numberFunc(str);
+          break;
+        case "+":
+        case "-":
+        case "x":
+        case "/":
+          this.symbolFunc(str);
+          break;
+        case "=":
+          this.equalFunc();
+          break;
+        case ".":
+          this.pointFunc();
+          break;
+        case "c":
+          this.clearFunc();
+          break;
+      }
+    }
+  }
 });
 
-// CONCATENATED MODULE: ./packages/calculator/src/calculator.vue?vue&type=script&lang=js&
+// CONCATENATED MODULE: ./myComponents/calculator/src/calculator.vue?vue&type=script&lang=js&
  /* harmony default export */ var src_calculatorvue_type_script_lang_js_ = (calculatorvue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./myComponents/calculator/src/calculator.vue?vue&type=style&index=0&id=c35dd3b2&scoped=true&lang=css&
+var calculatorvue_type_style_index_0_id_c35dd3b2_scoped_true_lang_css_ = __webpack_require__("95cb");
+
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
 /* globals __VUE_SSR_CONTEXT__ */
 
@@ -663,7 +793,8 @@ function normalizeComponent (
   }
 }
 
-// CONCATENATED MODULE: ./packages/calculator/src/calculator.vue
+// CONCATENATED MODULE: ./myComponents/calculator/src/calculator.vue
+
 
 
 
@@ -677,274 +808,25 @@ var component = normalizeComponent(
   staticRenderFns,
   false,
   null,
-  "40cbf3ec",
+  "c35dd3b2",
   null
   
 )
 
 /* harmony default export */ var calculator = (component.exports);
-// CONCATENATED MODULE: ./packages/calculator/index.js
+// CONCATENATED MODULE: ./myComponents/calculator/index.js
 
 
 calculator.install = Vue => {
     Vue.component(calculator.name, calculator)
 }
 
-/* harmony default export */ var packages_calculator = (calculator);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"e830ca14-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./packages/color-picker/src/color-picker.vue?vue&type=template&id=1ae3d07c&scoped=true&lang=html&
-var color_pickervue_type_template_id_1ae3d07c_scoped_true_lang_html_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"colorPicker",staticClass:"m-colorPicker",on:{"click":function (event) { event.stopPropagation() }}},[_c('div',{staticClass:"colorBtn",class:{ disabled: _vm.disabled },style:(("background-color: " + _vm.showColor)),on:{"click":function($event){_vm.openStatus = !_vm.disabled}}}),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.html5Color),expression:"html5Color"}],ref:"html5Color",attrs:{"type":"color"},domProps:{"value":(_vm.html5Color)},on:{"change":function($event){return _vm.updataValue(_vm.html5Color)},"input":function($event){if($event.target.composing){ return; }_vm.html5Color=$event.target.value}}}),_c('div',{staticClass:"box",class:{ open: _vm.openStatus }},[_c('div',{staticClass:"hd"},[_c('div',{staticClass:"colorView",style:(("background-color: " + _vm.showPanelColor))}),_c('div',{staticClass:"defaultColor",on:{"click":_vm.handleDefaultColor,"mouseover":function($event){_vm.hoveColor = _vm.defaultColor},"mouseout":function($event){_vm.hoveColor = null}}},[_vm._v("默认颜色")])]),_c('div',{staticClass:"bd"},[_c('h3',[_vm._v("主题颜色")]),_c('ul',{staticClass:"tColor"},_vm._l((_vm.tColor),function(color,index){return _c('li',{key:index,style:({ backgroundColor: color }),on:{"mouseover":function($event){_vm.hoveColor = color},"mouseout":function($event){_vm.hoveColor = null},"click":function($event){return _vm.updataValue(color)}}})}),0),_c('ul',{staticClass:"bColor"},_vm._l((_vm.colorPanel),function(item,index){return _c('li',{key:index},[_c('ul',_vm._l((item),function(color,cindex){return _c('li',{key:cindex,style:({ backgroundColor: color }),on:{"mouseover":function($event){_vm.hoveColor = color},"mouseout":function($event){_vm.hoveColor = null},"click":function($event){return _vm.updataValue(color)}}})}),0)])}),0),_c('h3',[_vm._v("标准颜色")]),_c('ul',{staticClass:"tColor"},_vm._l((_vm.bColor),function(color,index){return _c('li',{key:index,style:({ backgroundColor: color }),on:{"mouseover":function($event){_vm.hoveColor = color},"mouseout":function($event){_vm.hoveColor = null},"click":function($event){return _vm.updataValue(color)}}})}),0),_c('h3',{on:{"click":_vm.triggerHtml5Color}},[_vm._v("更多颜色...")])])])])}
-var color_pickervue_type_template_id_1ae3d07c_scoped_true_lang_html_staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./packages/color-picker/src/color-picker.vue?vue&type=template&id=1ae3d07c&scoped=true&lang=html&
-
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./packages/color-picker/src/color-picker.vue?vue&type=script&lang=js&
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-/* harmony default export */ var color_pickervue_type_script_lang_js_ = ({
-  name: 'colorPicker',
-  props: {
-    // 当前颜色值
-    value: {
-      type: String,
-      required: true
-    },
-    // 默认颜色
-    defaultColor: {
-      type: String,
-      default: '#000000'
-    },
-    // 禁用状态
-    disabled: {
-      type: Boolean,
-      default: false
-    }
-  },
-  data () {
-    return {
-      // 面板打开状态
-      openStatus: false,
-      // 鼠标经过的颜色块
-      hoveColor: null,
-      // 主题颜色
-      tColor: ['#000000', '#ffffff', '#eeece1', '#1e497b', '#4e81bb', '#e2534d', '#9aba60', '#8165a0', '#47acc5', '#f9974c'],
-      // 颜色面板
-      colorConfig: [
-        ['#7f7f7f', '#f2f2f2'],
-        ['#0d0d0d', '#808080'],
-        ['#1c1a10', '#ddd8c3'],
-        ['#0e243d', '#c6d9f0'],
-        ['#233f5e', '#dae5f0'],
-        ['#632623', '#f2dbdb'],
-        ['#4d602c', '#eaf1de'],
-        ['#3f3150', '#e6e0ec'],
-        ['#1e5867', '#d9eef3'],
-        ['#99490f', '#fee9da']
-      ],
-      // 标准颜色
-      bColor: ['#c21401', '#ff1e02', '#ffc12a', '#ffff3a', '#90cf5b', '#00af57', '#00afee', '#0071be', '#00215f', '#72349d'],
-      html5Color: this.value
-    }
-  },
-  computed: {
-    // 显示面板颜色
-    showPanelColor () {
-      if (this.hoveColor) {
-        return this.hoveColor
-      } else {
-        return this.showColor
-      }
-    },
-    // 显示颜色
-    showColor () {
-      if (this.value) {
-        return this.value
-      } else {
-        return this.defaultColor
-      }
-    },
-    // 颜色面板
-    colorPanel () {
-      let colorArr = []
-      for (let color of this.colorConfig) {
-        colorArr.push(this.gradient(color[1], color[0], 5))
-      }
-      return colorArr
-    }
-  },
-  methods: {
-    triggerHtml5Color () {
-      this.$refs.html5Color.click()
-    },
-    // 更新组件的值 value
-    updataValue (value) {
-      this.$emit('input', value)
-      this.$emit('change', value)
-      this.openStatus = false
-    },
-    // 设置默认颜色
-    handleDefaultColor () {
-      this.updataValue(this.defaultColor)
-    },
-    // 格式化 hex 颜色值
-    parseColor (hexStr) {
-      if (hexStr.length === 4) {
-        hexStr = '#' + hexStr[1] + hexStr[1] + hexStr[2] + hexStr[2] + hexStr[3] + hexStr[3]
-      } else {
-        return hexStr
-      }
-    },
-    // RGB 颜色 转 HEX 颜色
-    rgbToHex (r, g, b) {
-      let hex = ((r << 16) | (g << 8) | b).toString(16)
-      return '#' + new Array(Math.abs(hex.length - 7)).join('0') + hex
-    },
-    // HEX 转 RGB 颜色
-    hexToRgb (hex) {
-      hex = this.parseColor(hex)
-      let rgb = []
-      for (let i = 1; i < 7; i += 2) {
-        rgb.push(parseInt('0x' + hex.slice(i, i + 2)))
-      }
-      return rgb
-    },
-    // 计算渐变过渡颜色
-    gradient (startColor, endColor, step) {
-      // 讲 hex 转换为 rgb
-      let sColor = this.hexToRgb(startColor)
-      let eColor = this.hexToRgb(endColor)
-
-      // 计算R\G\B每一步的差值
-      let rStep = (eColor[0] - sColor[0]) / step
-      let gStep = (eColor[1] - sColor[1]) / step
-      let bStep = (eColor[2] - sColor[2]) / step
-
-      let gradientColorArr = []
-      // 计算每一步的hex值
-      for (let i = 0; i < step; i++) {
-        gradientColorArr.push(this.rgbToHex(parseInt(rStep * i + sColor[0]), parseInt(gStep * i + sColor[1]), parseInt(bStep * i + sColor[2])))
-      }
-      return gradientColorArr
-    }
-  },
-  mounted () {
-    // 点击页面上其他地方，关闭弹窗
-    document.onclick = () => {
-      this.openStatus = false
-    }
-  }
-});
-
-// CONCATENATED MODULE: ./packages/color-picker/src/color-picker.vue?vue&type=script&lang=js&
- /* harmony default export */ var src_color_pickervue_type_script_lang_js_ = (color_pickervue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./packages/color-picker/src/color-picker.vue?vue&type=style&index=0&id=1ae3d07c&lang=scss&scoped=true&
-var color_pickervue_type_style_index_0_id_1ae3d07c_lang_scss_scoped_true_ = __webpack_require__("4dba");
-
-// CONCATENATED MODULE: ./packages/color-picker/src/color-picker.vue
-
-
-
-
-
-
-/* normalize component */
-
-var color_picker_component = normalizeComponent(
-  src_color_pickervue_type_script_lang_js_,
-  color_pickervue_type_template_id_1ae3d07c_scoped_true_lang_html_render,
-  color_pickervue_type_template_id_1ae3d07c_scoped_true_lang_html_staticRenderFns,
-  false,
-  null,
-  "1ae3d07c",
-  null
-  
-)
-
-/* harmony default export */ var color_picker = (color_picker_component.exports);
-// CONCATENATED MODULE: ./packages/color-picker/index.js
-// 导入组件
-
-
-// 为组件提供 install 安装方法，供按需引入
-color_picker.install = function (Vue) {
-  Vue.component(color_picker.name, color_picker)
-}
-
-// 默认导出组件
-/* harmony default export */ var packages_color_picker = (color_picker);
-
-// CONCATENATED MODULE: ./packages/index.js
-
+/* harmony default export */ var myComponents_calculator = (calculator);
+// CONCATENATED MODULE: ./myComponents/index.js
 
 
 const components = [
-    packages_calculator,
-    packages_color_picker
+    myComponents_calculator
 ]
 
 // 定义 install 方法，接收 Vue 作为参数。如果使用 use 注册插件，则所有的组件都将被注册
@@ -960,37 +842,21 @@ if (typeof window !== 'undefined' && window.Vue) {
     install(window.Vue)
 }
 
-/* harmony default export */ var packages_0 = ({
+/* harmony default export */ var myComponents = ({
     // 导出的对象必须具有 install，才能被 Vue.use() 方法安装
     install,
     // 以下是具体的组件列表
-    calculator: packages_calculator,
-    colorPicker: packages_color_picker
+    calculator: myComponents_calculator
 });
 // CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-lib.js
 
 
-/* harmony default export */ var entry_lib = __webpack_exports__["default"] = (packages_0);
+/* harmony default export */ var entry_lib = __webpack_exports__["default"] = (myComponents);
 
 
-
-/***/ }),
-
-/***/ "febd":
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__("d163");
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add the styles to the DOM
-var add = __webpack_require__("499e").default
-var update = add("72393c1a", content, true, {"sourceMap":false,"shadowMode":false});
 
 /***/ })
 
 /******/ });
 });
-//# sourceMappingURL=vcolorpicker.umd.js.map
+//# sourceMappingURL=landscape-components.umd.js.map

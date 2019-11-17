@@ -1,4 +1,7 @@
 module.exports = {
+    configureWebpack: {
+        devtool: 'source-map'
+    },
     // 强制内联CSS
     css: {
         extract: false
