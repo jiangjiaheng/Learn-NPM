@@ -11,7 +11,7 @@ module.exports = {
         config.module
             .rule('js')
             .include
-            .add('/components')
+            .add('/myComponents')
             .end()
             .use('babel')
             .loader('babel-loader')

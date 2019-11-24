@@ -558,7 +558,7 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"6e8cfb98-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./myComponents/calculator/src/calculator.vue?vue&type=template&id=c35dd3b2&scoped=true&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"766bf3bc-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./myComponents/calculator/src/calculator.vue?vue&type=template&id=c35dd3b2&scoped=true&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"calculator"}},[_c('div',{staticClass:"top"},[_c('span',{staticClass:"clear",on:{"click":_vm.calculator}},[_vm._v("c")]),_c('div',{staticClass:"screen"},[_vm._v(_vm._s(_vm.result))])]),_c('div',{staticClass:"keys"},[_c('span',{on:{"click":_vm.calculator}},[_vm._v("7")]),_c('span',{on:{"click":_vm.calculator}},[_vm._v("8")]),_c('span',{on:{"click":_vm.calculator}},[_vm._v("9")]),_c('span',{staticClass:"operator",on:{"click":_vm.calculator}},[_vm._v("+")])]),_c('div',{staticClass:"keys"},[_c('span',{on:{"click":_vm.calculator}},[_vm._v("4")]),_c('span',{on:{"click":_vm.calculator}},[_vm._v("5")]),_c('span',{on:{"click":_vm.calculator}},[_vm._v("6")]),_c('span',{staticClass:"operator",on:{"click":_vm.calculator}},[_vm._v("-")])]),_c('div',{staticClass:"keys"},[_c('span',{on:{"click":_vm.calculator}},[_vm._v("1")]),_c('span',{on:{"click":_vm.calculator}},[_vm._v("2")]),_c('span',{on:{"click":_vm.calculator}},[_vm._v("3")]),_c('span',{staticClass:"operator",on:{"click":_vm.calculator}},[_vm._v("/")])]),_c('div',{staticClass:"keys"},[_c('span',{on:{"click":_vm.calculator}},[_vm._v("0")]),_c('span',{on:{"click":_vm.calculator}},[_vm._v(".")]),_c('span',{staticClass:"eval",on:{"click":_vm.calculator}},[_vm._v("=")]),_c('span',{staticClass:"operator",on:{"click":_vm.calculator}},[_vm._v("x")])])])}
 var staticRenderFns = []
 
@@ -822,11 +822,66 @@ calculator.install = Vue => {
 }
 
 /* harmony default export */ var myComponents_calculator = (calculator);
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"766bf3bc-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./myComponents/helloWorld/src/helloWorld.vue?vue&type=template&id=48bbd668&scoped=true&
+var helloWorldvue_type_template_id_48bbd668_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
+var helloWorldvue_type_template_id_48bbd668_scoped_true_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{},[_c('h1',[_vm._v("this is my vue component")])])}]
+
+
+// CONCATENATED MODULE: ./myComponents/helloWorld/src/helloWorld.vue?vue&type=template&id=48bbd668&scoped=true&
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./myComponents/helloWorld/src/helloWorld.vue?vue&type=script&lang=js&
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ var helloWorldvue_type_script_lang_js_ = ({
+   name: 'helloWorld',
+   components: {},
+   data() {
+       return {}
+   },
+});
+
+// CONCATENATED MODULE: ./myComponents/helloWorld/src/helloWorld.vue?vue&type=script&lang=js&
+ /* harmony default export */ var src_helloWorldvue_type_script_lang_js_ = (helloWorldvue_type_script_lang_js_); 
+// CONCATENATED MODULE: ./myComponents/helloWorld/src/helloWorld.vue
+
+
+
+
+
+/* normalize component */
+
+var helloWorld_component = normalizeComponent(
+  src_helloWorldvue_type_script_lang_js_,
+  helloWorldvue_type_template_id_48bbd668_scoped_true_render,
+  helloWorldvue_type_template_id_48bbd668_scoped_true_staticRenderFns,
+  false,
+  null,
+  "48bbd668",
+  null
+  
+)
+
+/* harmony default export */ var helloWorld = (helloWorld_component.exports);
+// CONCATENATED MODULE: ./myComponents/helloWorld/index.js
+
+
+helloWorld.install = Vue => {
+    Vue.component(helloWorld.name, helloWorld)
+}
+
+/* harmony default export */ var myComponents_helloWorld = (helloWorld);
 // CONCATENATED MODULE: ./myComponents/index.js
 
 
+
 const components = [
-    myComponents_calculator
+    myComponents_calculator,
+    myComponents_helloWorld
 ]
 
 // 定义 install 方法，接收 Vue 作为参数。如果使用 use 注册插件，则所有的组件都将被注册
@@ -846,7 +901,8 @@ if (typeof window !== 'undefined' && window.Vue) {
     // 导出的对象必须具有 install，才能被 Vue.use() 方法安装
     install,
     // 以下是具体的组件列表
-    calculator: myComponents_calculator
+    calculator: myComponents_calculator,
+    helloWorld: myComponents_helloWorld
 });
 // CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-lib.js
 

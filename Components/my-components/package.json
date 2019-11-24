@@ -10,8 +10,8 @@
         "lib": "vue-cli-service build --target lib --name vcolorpicker --dest lib packages/index.js"
     },
     "dependencies": {
-        "core-js": "^3.3.2",
-        "landscape-components": "^0.1.0",
+        "core-js": "^3.4.2",
+        "landscape-components": "^0.3.0",
         "landscapecolor": "^0.1.0",
         "node-sass": "^4.13.0",
         "sass-loader": "^8.0.0",
