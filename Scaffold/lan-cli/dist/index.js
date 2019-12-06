@@ -106,7 +106,7 @@ function createCommonjsModule(fn, module) {
 
 var matchOperatorsRe = /[|\\{}()[\]^$+*?.]/g;
 
-var C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_escapeStringRegexp = function (str) {
+var C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_escapeStringRegexp = function (str) {
 	if (typeof str !== 'string') {
 		throw new TypeError('Expected a string');
 	}
@@ -114,7 +114,7 @@ var C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_escapeS
 	return str.replace(matchOperatorsRe, '\\$&');
 };
 
-var C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_colorName = {
+var C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_colorName = {
 	"aliceblue": [240, 248, 255],
 	"antiquewhite": [250, 235, 215],
 	"aqua": [0, 255, 255],
@@ -274,9 +274,9 @@ var conversions = createCommonjsModule(function (module) {
 //       do not use box values types (i.e. Number(), String(), etc.)
 
 var reverseKeywords = {};
-for (var key in C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_colorName) {
-	if (C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_colorName.hasOwnProperty(key)) {
-		reverseKeywords[C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_colorName[key]] = key;
+for (var key in C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_colorName) {
+	if (C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_colorName.hasOwnProperty(key)) {
+		reverseKeywords[C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_colorName[key]] = key;
 	}
 }
 
@@ -456,9 +456,9 @@ convert.rgb.keyword = function (rgb) {
 	var currentClosestDistance = Infinity;
 	var currentClosestKeyword;
 
-	for (var keyword in C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_colorName) {
-		if (C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_colorName.hasOwnProperty(keyword)) {
-			var value = C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_colorName[keyword];
+	for (var keyword in C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_colorName) {
+		if (C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_colorName.hasOwnProperty(keyword)) {
+			var value = C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_colorName[keyword];
 
 			// Compute comparative distance
 			var distance = comparativeDistance(rgb, value);
@@ -475,7 +475,7 @@ convert.rgb.keyword = function (rgb) {
 };
 
 convert.keyword.rgb = function (keyword) {
-	return C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_colorName[keyword];
+	return C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_colorName[keyword];
 };
 
 convert.rgb.xyz = function (rgb) {
@@ -1320,23 +1320,23 @@ models.forEach(function (fromModel) {
 	});
 });
 
-var C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_colorConvert = convert;
+var C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_colorConvert = convert;
 
-var C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_ansiStyles = createCommonjsModule(function (module) {
+var C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_ansiStyles = createCommonjsModule(function (module) {
 
 
 const wrapAnsi16 = (fn, offset) => function () {
-	const code = fn.apply(C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_colorConvert, arguments);
+	const code = fn.apply(C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_colorConvert, arguments);
 	return `\u001B[${code + offset}m`;
 };
 
 const wrapAnsi256 = (fn, offset) => function () {
-	const code = fn.apply(C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_colorConvert, arguments);
+	const code = fn.apply(C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_colorConvert, arguments);
 	return `\u001B[${38 + offset};5;${code}m`;
 };
 
 const wrapAnsi16m = (fn, offset) => function () {
-	const rgb = fn.apply(C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_colorConvert, arguments);
+	const rgb = fn.apply(C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_colorConvert, arguments);
 	return `\u001B[${38 + offset};2;${rgb[0]};${rgb[1]};${rgb[2]}m`;
 };
 
@@ -1452,12 +1452,12 @@ function assembleStyles() {
 		rgb: wrapAnsi16m(rgb2rgb, 10)
 	};
 
-	for (let key of Object.keys(C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_colorConvert)) {
-		if (typeof C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_colorConvert[key] !== 'object') {
+	for (let key of Object.keys(C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_colorConvert)) {
+		if (typeof C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_colorConvert[key] !== 'object') {
 			continue;
 		}
 
-		const suite = C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_colorConvert[key];
+		const suite = C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_colorConvert[key];
 
 		if (key === 'ansi16') {
 			key = 'ansi';
@@ -1489,7 +1489,7 @@ Object.defineProperty(module, 'exports', {
 });
 });
 
-var C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_hasFlag = (flag, argv) => {
+var C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_hasFlag = (flag, argv) => {
 	argv = argv || process.argv;
 	const prefix = flag.startsWith('-') ? '' : (flag.length === 1 ? '-' : '--');
 	const pos = argv.indexOf(prefix + flag);
@@ -1500,14 +1500,14 @@ var C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_hasFlag
 const env = process.env;
 
 let forceColor;
-if (C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_hasFlag('no-color') ||
-	C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_hasFlag('no-colors') ||
-	C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_hasFlag('color=false')) {
+if (C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_hasFlag('no-color') ||
+	C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_hasFlag('no-colors') ||
+	C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_hasFlag('color=false')) {
 	forceColor = false;
-} else if (C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_hasFlag('color') ||
-	C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_hasFlag('colors') ||
-	C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_hasFlag('color=true') ||
-	C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_hasFlag('color=always')) {
+} else if (C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_hasFlag('color') ||
+	C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_hasFlag('colors') ||
+	C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_hasFlag('color=true') ||
+	C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_hasFlag('color=always')) {
 	forceColor = true;
 }
 if ('FORCE_COLOR' in env) {
@@ -1532,13 +1532,13 @@ function supportsColor(stream) {
 		return 0;
 	}
 
-	if (C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_hasFlag('color=16m') ||
-		C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_hasFlag('color=full') ||
-		C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_hasFlag('color=truecolor')) {
+	if (C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_hasFlag('color=16m') ||
+		C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_hasFlag('color=full') ||
+		C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_hasFlag('color=truecolor')) {
 		return 3;
 	}
 
-	if (C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_hasFlag('color=256')) {
+	if (C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_hasFlag('color=256')) {
 		return 2;
 	}
 
@@ -1619,7 +1619,7 @@ function getSupportLevel(stream) {
 	return translateLevel(level);
 }
 
-var C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_supportsColor = {
+var C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_supportsColor = {
 	supportsColor: getSupportLevel,
 	stdout: getSupportLevel(process.stdout),
 	stderr: getSupportLevel(process.stderr)
@@ -1753,10 +1753,10 @@ var templates = (chalk, tmp) => {
 	return chunks.join('');
 };
 
-var C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_chalk = createCommonjsModule(function (module) {
+var C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_chalk = createCommonjsModule(function (module) {
 
 
-const stdoutColor = C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_supportsColor.stdout;
+const stdoutColor = C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_supportsColor.stdout;
 
 
 
@@ -1804,15 +1804,15 @@ function Chalk(options) {
 
 // Use bright blue on Windows as the normal blue color is illegible
 if (isSimpleWindowsTerm) {
-	C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_ansiStyles.blue.open = '\u001B[94m';
+	C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_ansiStyles.blue.open = '\u001B[94m';
 }
 
-for (const key of Object.keys(C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_ansiStyles)) {
-	C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_ansiStyles[key].closeRe = new RegExp(C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_escapeStringRegexp(C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_ansiStyles[key].close), 'g');
+for (const key of Object.keys(C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_ansiStyles)) {
+	C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_ansiStyles[key].closeRe = new RegExp(C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_escapeStringRegexp(C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_ansiStyles[key].close), 'g');
 
 	styles[key] = {
 		get() {
-			const codes = C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_ansiStyles[key];
+			const codes = C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_ansiStyles[key];
 			return build.call(this, this._styles ? this._styles.concat(codes) : [codes], this._empty, key);
 		}
 	};
@@ -1824,8 +1824,8 @@ styles.visible = {
 	}
 };
 
-C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_ansiStyles.color.closeRe = new RegExp(C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_escapeStringRegexp(C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_ansiStyles.color.close), 'g');
-for (const model of Object.keys(C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_ansiStyles.color.ansi)) {
+C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_ansiStyles.color.closeRe = new RegExp(C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_escapeStringRegexp(C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_ansiStyles.color.close), 'g');
+for (const model of Object.keys(C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_ansiStyles.color.ansi)) {
 	if (skipModels.has(model)) {
 		continue;
 	}
@@ -1834,11 +1834,11 @@ for (const model of Object.keys(C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myS
 		get() {
 			const level = this.level;
 			return function () {
-				const open = C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_ansiStyles.color[levelMapping[level]][model].apply(null, arguments);
+				const open = C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_ansiStyles.color[levelMapping[level]][model].apply(null, arguments);
 				const codes = {
 					open,
-					close: C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_ansiStyles.color.close,
-					closeRe: C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_ansiStyles.color.closeRe
+					close: C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_ansiStyles.color.close,
+					closeRe: C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_ansiStyles.color.closeRe
 				};
 				return build.call(this, this._styles ? this._styles.concat(codes) : [codes], this._empty, model);
 			};
@@ -1846,8 +1846,8 @@ for (const model of Object.keys(C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myS
 	};
 }
 
-C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_ansiStyles.bgColor.closeRe = new RegExp(C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_escapeStringRegexp(C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_ansiStyles.bgColor.close), 'g');
-for (const model of Object.keys(C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_ansiStyles.bgColor.ansi)) {
+C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_ansiStyles.bgColor.closeRe = new RegExp(C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_escapeStringRegexp(C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_ansiStyles.bgColor.close), 'g');
+for (const model of Object.keys(C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_ansiStyles.bgColor.ansi)) {
 	if (skipModels.has(model)) {
 		continue;
 	}
@@ -1857,11 +1857,11 @@ for (const model of Object.keys(C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myS
 		get() {
 			const level = this.level;
 			return function () {
-				const open = C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_ansiStyles.bgColor[levelMapping[level]][model].apply(null, arguments);
+				const open = C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_ansiStyles.bgColor[levelMapping[level]][model].apply(null, arguments);
 				const codes = {
 					open,
-					close: C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_ansiStyles.bgColor.close,
-					closeRe: C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_ansiStyles.bgColor.closeRe
+					close: C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_ansiStyles.bgColor.close,
+					closeRe: C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_ansiStyles.bgColor.closeRe
 				};
 				return build.call(this, this._styles ? this._styles.concat(codes) : [codes], this._empty, model);
 			};
@@ -1935,9 +1935,9 @@ function applyStyle() {
 	// Turns out that on Windows dimmed gray text becomes invisible in cmd.exe,
 	// see https://github.com/chalk/chalk/issues/58
 	// If we're on Windows and we're dealing with a gray color, temporarily make 'dim' a noop.
-	const originalDim = C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_ansiStyles.dim.open;
+	const originalDim = C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_ansiStyles.dim.open;
 	if (isSimpleWindowsTerm && this.hasGrey) {
-		C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_ansiStyles.dim.open = '';
+		C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_ansiStyles.dim.open = '';
 	}
 
 	for (const code of this._styles.slice().reverse()) {
@@ -1953,7 +1953,7 @@ function applyStyle() {
 	}
 
 	// Reset the original `dim` if we changed it to work around the Windows dimmed gray issue
-	C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_ansiStyles.dim.open = originalDim;
+	C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_ansiStyles.dim.open = originalDim;
 
 	return str;
 }
@@ -1982,7 +1982,7 @@ module.exports = Chalk(); // eslint-disable-line new-cap
 module.exports.supportsColor = stdoutColor;
 module.exports.default = module.exports; // For TypeScript
 });
-var C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_chalk_1 = C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_chalk.supportsColor;
+var C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_chalk_1 = C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_chalk.supportsColor;
 
 var table = new Table({
     head: ['Template Name', 'Owner/Name', 'Branch', 'From'],
@@ -1998,7 +1998,7 @@ var listTable = (function (tplList, lyric, autoExit) {
         if (table.length === tplList.length) {
             console.log(table.toString());
             if (lyric) {
-                console.log(C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_chalk.green("\u2714 " + lyric));
+                console.log(C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_chalk.green("\u2714 " + lyric));
             }
             autoExit && process.exit();
         }
@@ -2248,7 +2248,7 @@ var initiator = function (_a) {
                     result = _b.sent();
                     _b.label = 6;
                 case 6:
-                    console.log(result.status ? C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_chalk.green(result.msg) : C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_myScaffold_node_modules_chalk.red(result.msg));
+                    console.log(result.status ? C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_chalk.green(result.msg) : C__Users_JJH19_Desktop_NPM_LearnNPM_Scaffold_lanCli_node_modules_chalk.red(result.msg));
                     return [2 /*return*/];
             }
         });

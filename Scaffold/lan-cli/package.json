@@ -1,20 +1,20 @@
 {
-    "name": "landscape-cli",
-    "version": "1.0.0",
-    "description": "landscape  is a scaffold for initiating new projects from a given template.",
-    "bin": {
-        "landscape": "bin/landscape"
-    },
+    "name": "lan-cli",
+    "version": "2.0.0",
+    "description": "this is a scaffold",
     "author": "jiangjiaheng",
     "license": "ISC",
+    "bin": {
+        "lan": "bin/lan"
+    },
     "scripts": {
         "dev": "rollup -c -w",
         "build": "rollup -c"
     },
     "keywords": [
-        "landscape",
-        "landscape-cli",
-        "cli"
+        "lan-cli",
+        "lan",
+        "scaffold"
     ],
     "dependencies": {
         "chalk": "^2.4.2",
