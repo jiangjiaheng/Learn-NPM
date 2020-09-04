@@ -13,7 +13,7 @@
         "core-js": "^3.4.2",
         "landscape-components": "^0.3.0",
         "landscapecolor": "^0.1.0",
-        "node-sass": "^4.13.0",
+        "node-sass": "^4.13.1",
         "sass-loader": "^8.0.0",
         "vcolorpicker": "^0.1.8",
         "vue": "^2.6.10"
