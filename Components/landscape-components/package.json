@@ -3,8 +3,14 @@
     "version": "0.3.0",
     "description": "landscape的Vue组件库",
     "main": "lib/landscape-components.umd.min.js",
-    "keywords": ["landscape-components", "calculator", "helloWorld"],
-    "author": { "name": "jiangjiaheng" },
+    "keywords": [
+        "landscape-components",
+        "calculator",
+        "helloWorld"
+    ],
+    "author": {
+        "name": "jiangjiaheng"
+    },
     "private": false,
     "scripts": {
         "serve": "vue-cli-service serve",
